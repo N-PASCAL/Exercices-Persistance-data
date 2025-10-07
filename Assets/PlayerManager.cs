@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
-using TMPro;
 
 [System.Serializable]
 public class PlayerData
