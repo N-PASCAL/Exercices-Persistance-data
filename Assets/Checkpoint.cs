@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
@@ -9,7 +10,7 @@ public class Checkpoint : MonoBehaviour
     }
     
     
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         PlayerManager player = other.GetComponent<PlayerManager>();
         if (player != null)
