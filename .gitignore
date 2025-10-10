@@ -79,22 +79,6 @@ crashlytics-build.properties
 # TestRunner generated files
 InitTestScene*.unity*
 
-# =========================
-# Firebase specific ignores
-# =========================
-# Firebase config files that contain API keys or project info (handled separately)
-**/google-services.json
-**/GoogleService-Info.plist
-# Firebase generated files
-**/Firebase/Editor/
-**/Firebase/Plugins/Editor/
-**/Firebase/m2repository/
-**/FirebaseCrashlytics/
-**/FirebaseAnalytics/
-**/FirebaseAppCheck/
-**/FirebaseAuth/
-**/FirebaseDatabase/
-**/FirebaseStorage/
 
 
 # Addressables default ignores, before user customizations
